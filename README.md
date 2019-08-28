@@ -1,5 +1,7 @@
 # Obsolete Fixer :sparkles:
 
+[![Visual Studio Marketplace Version](https://vsmarketplacebadge.apphb.com/version/JulianVerdurmen.ObsoleteFixer.svg)](https://marketplace.visualstudio.com/items?itemName=JulianVerdurmen.ObsoleteFixer)
+
 Fixer for `[Obsolete]` in C# with the powers of Roslyn! :gem:
 
 Currently supported:
