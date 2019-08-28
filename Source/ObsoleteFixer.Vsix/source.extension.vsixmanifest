@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="ObsoleteFixer.2dce00cd-cfc2-47b2-a539-67dc7bd94cbf" Version="0.1" Language="en-US" Publisher="Julian Verdurmen"/>
+        <DisplayName>ObsoleteFixer</DisplayName>
+        <Description xml:space="preserve">Fixer for [Obsolete] in C# with the powers of Roslyn!</Description>
+        <License>LICENSE.txt</License>
+        <GettingStartedGuide>https://github.com/304NotModified/ObsoleteFixer/</GettingStartedGuide>
+        <Tags>obsolete-attribute fixer</Tags>
+        <Preview>true</Preview>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0,)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Pro" Version="[15.0,)" />
+        <InstallationTarget Id="Microsoft.VisualStudio.Enterprise" Version="[15.0,)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="ObsoleteFixer" Path="|ObsoleteFixer|"/>
+        <Asset Type="Microsoft.VisualStudio.Analyzer" d:Source="Project" d:ProjectName="ObsoleteFixer" Path="|ObsoleteFixer|"/>
+    </Assets>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+        <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[15.0,)" DisplayName="Roslyn Language Services" />
+    </Prerequisites>
+</PackageManifest>
