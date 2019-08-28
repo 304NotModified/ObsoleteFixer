@@ -66,7 +66,7 @@ myClass.MyNewMethod("text", 2);
 
 ## Method replacement with argument transformations
 
-Gives
+Given:
 ```c#
 class MyClass
 {
