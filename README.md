@@ -118,3 +118,4 @@ Not sure, also not sure how that works with the VISX
 - Inheritance: Support for changing base class / interface
 - Constructor with parameter transformation
 - Transformation of parameter type? (e.g. int to string)
+- Namespace support (e.g. only change the namespace)
